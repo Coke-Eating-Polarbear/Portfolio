@@ -1031,6 +1031,10 @@ section,
   position: relative;
 }
 
+.testimonials .swiper-container {
+  direction: rtl; /* 오른쪽에서 왼쪽으로 슬라이드 */
+}
+
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -1042,6 +1046,8 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact Section
